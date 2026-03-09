@@ -9,10 +9,10 @@
     state: started
     enabled: yes
 
-- name: Include common role
-  include_role:
-    name: common
-    #tasks_from: main
+# - name: Include common role
+#   include_role:
+#     name: common
+#     #tasks_from: main
 
 # - name: Remove directory
 #   ansible.builtin.file:
