@@ -1,0 +1,5 @@
+MYSQL_USERNAME: root
+MYSQL_PASSWORD: ExpenseApp@1
+MYSQL_HOST: mysql.mahedevops.online
+DIR_LOCATION: /app
+COMPONENT: backend
