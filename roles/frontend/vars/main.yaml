@@ -1,0 +1,3 @@
+DIR_LOCATION: /usr/share/nginx/html
+COMPONENT: frontend
+BACKEND_HOST: backend.mahedevops.online
