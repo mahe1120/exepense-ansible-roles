@@ -20,7 +20,8 @@
 - name: login to mysql server
   community.mysql.mysql_info:
     login_user: root
-    login_password: "{{ mysql_password }}"
+    #login_password: "{{ mysql_password }}"
+    login_password: "{{ lookup('amazon.aws.aws.ssm', '/expense/mysql/mysql_root_password', decrypt=True) }}"
     login_host: mysql.mahedevops.online
   register: mysql_info
   ignore_errors: true
